@@ -72,3 +72,12 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# --- Force include for important game files ---
+!*.uproject
+!Source/**
+!Content/**
+!Config/**
+
+.DS_Store
+
